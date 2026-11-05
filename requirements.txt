@@ -1,0 +1,9 @@
+# Dependências iniciais para análise e modelagem
+jupyter
+notebook
+ipykernel
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
