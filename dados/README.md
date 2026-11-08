@@ -14,22 +14,35 @@ Antes de usar a base, confira:
 
 Se a base vier do Kaggle, registre a fonte real e suas limitações no notebook. Não use aqui arquivos de outras atividades que tenham estrutura ou objetivo diferentes.
 
-## Validação preliminar relatada em 08/11/2026
+## Validação técnica executada em 08/11/2026
 
-O arquivo `Atividade_Cap11_produtos_agricolas(1).csv` foi apresentado pelo aluno como material enviado pela professora da FIAP. Na conversa anterior, o aluno relatou as seguintes verificações:
+Arquivo analisado **localmente**, anexado pelo aluno: `Atividade_Cap11_produtos_agricolas(2).csv`. Não foi publicado neste repositório.
 
-| Verificação | Resultado relatado |
+| Verificação | Resultado executado |
 |---|---:|
 | Registros | 2.200 |
 | Colunas | 8 |
-| Culturas em `label` | 22 |
-| Registros por cultura | 100 |
+| Variáveis numéricas | 7 |
+| Classes de cultura (`label`) | 22 |
+| Registros por cultura | 100 (todas as classes) |
 | Valores ausentes | 0 |
 | Linhas totalmente duplicadas | 0 |
+| Valores numéricos infinitos | 0 |
+| Nutrientes negativos | 0 |
+| Umidade fora de 0–100% | 0 |
+| pH fora de 0–14 | 0 |
+| Precipitação negativa | 0 |
 
-**Nível de evidência:** validação histórica relatada, não reexecutada a partir do CSV nesta atualização. O arquivo CSV **não está versionado nesta pasta**. Os números devem ser reproduzidos no notebook quando o arquivo estiver disponível.
+Colunas conferidas: `N`, `P`, `K`, `temperature`, `humidity`, `ph`, `rainfall`, `label`.
 
-**Origem:** fornecido pelo aluno como arquivo compartilhado pela professora. A origem primária, licença de redistribuição e abrangência geográfica ainda precisam ser documentadas. Não atribuir automaticamente a origem ao Kaggle ou à FIAP como proprietária, nem publicar o CSV sem verificar os direitos.
+**SHA-256 da versão recebida:** `54a5a6e5408668e668667efc50de2fc867c1b875e0431b4f54dd331b0a109a4e`
 
-**Status:** estrutura implementada; presença do CSV no GitHub: ausente; validação atual: pendente de reexecução.
+A verificação acima é **executada e validada quanto à estrutura e consistência básica**, não é prova de representatividade nem de adequação agronômica.
 
+### Origem e republicação
+
+O arquivo foi disponibilizado ao aluno como material de aula. O conjunto público [Crop Recommendation Dataset (Atharva Ingle, Kaggle)](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset) apresenta estrutura, tamanho e classes compatíveis, e a página pública informa licença **Apache 2.0**. **Isso não estabelece identidade exata de versão nem a cadeia de origem do arquivo recebido.** Antes de disponibilizar o CSV publicamente, confirmar se é uma cópia inalterada e seguir os termos aplicáveis. O conjunto público informa ter sido construído a partir de fontes referentes à Índia; não extrapolar resultados para o Brasil sem validação local.
+
+**Uso recomendado:** mantenha o CSV em `dados/` apenas na máquina de execução. O `.gitignore` bloqueia `dados/*.csv` para evitar publicação acidental.
+
+**Reprodução no notebook:** pendente. A célula de validação foi implementada, mas ainda não há saída executada registrada no `.ipynb`.
