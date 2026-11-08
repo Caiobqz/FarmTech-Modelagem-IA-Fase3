@@ -3,17 +3,17 @@
 ## Antes da análise
 - [x] Capítulo 11 informado pelo aluno em 08/11/2026; confirmar detalhes formais no portal da FIAP antes da submissão.
 - [x] Receber e validar localmente o CSV fornecido; manter o arquivo fora do GitHub até confirmar permissão de republicação.
-- [ ] Colocar uma única cópia do CSV na pasta local `dados/` para executar o notebook.
+- [x] CSV foi carregado no ambiente Jupyter do aluno, conforme resultados compartilhados na conversa. Manter uma cópia local em `dados/` e não publicar no GitHub.
 - [ ] Confirmar procedência exata, autorização de republicação e contexto geográfico; referência compatível no Kaggle, sem identidade do arquivo comprovada.
 - [x] Validar o CSV real fora do notebook: 2.200 linhas, 8 colunas, 22 classes, sem ausentes/duplicatas integrais; verificar tipos e faixas básicas.
 - [x] Executar as duas primeiras células de código em Jupyter isolado e salvar suas saídas no notebook; reexecutar no computador do aluno antes da entrega.
 
 ## Análise exploratória
-- [ ] Calcular estatísticas descritivas.
-- [ ] Criar pelo menos cinco gráficos diferentes.
+- [x] Estatísticas descritivas executadas localmente (captura compartilhada; ainda não sincronizadas no GitHub).
+- [x] Cinco gráficos executados localmente (histograma, boxplot, dispersão, correlação, barras); arquivos do Jupyter ainda precisam ser recebidos para sincronização.
 - [ ] Escrever uma interpretação própria para cada gráfico.
-- [ ] Escolher três culturas e justificar a seleção.
-- [ ] Comparar as características observadas sem transformar médias em recomendações universais.
+- [x] Culturas escolhidas: arroz, milho e café. Justificativa de escolha: comparar perfis contrastantes observados no dataset; inserir explicação autoral em Markdown.
+- [ ] Tabela comparativa com médias e desvios calculada em `docs/comparacao-tecnica-tres-culturas.md`; explicação acadêmica do aluno pendente no notebook.
 
 ## Modelagem
 - [ ] Definir X e y.
@@ -38,10 +38,19 @@
 | Rascunho do notebook | Parcialmente executado | 19 células; primeiras duas células de código executadas com o CSV real e saídas salvas; demais cinco células de código sem execução |
 | Estrutura e consistência do CSV | Validado externamente ao notebook | Arquivo real lido em 08/11/2026; ver `dados/README.md` |
 | CSV no GitHub | Ausente | Pasta `dados/` contém apenas README |
-| EDA, 5 gráficos, 3 culturas | Planejado | Código ainda não implementado |
-| 5 classificadores e métricas | Planejado | Código ainda não implementado |
+| EDA e 5 gráficos | Executado localmente; não sincronizado | Capturas fornecidas pelo aluno; aguarda notebook `.ipynb` atualizado |
+| Três culturas | Cálculos executados; interpretação pendente | `docs/comparacao-tecnica-tres-culturas.md` |
+| Preparação técnica de ML | Testada isoladamente | Script de diagnóstico e split estratificado 80/20: 1.760/440 |
+| 5 classificadores e métricas | Planejado | Modelos não treinados |
 | Notebook integralmente executado e entrega FIAP | Pendente | Apenas as duas primeiras células de código têm evidências de execução |
 
 **Definições de estado:** Planejado = descrito, sem implementação; Implementado = existe no repositório; Executado = rodou com dados reais e gerou saída; Validado = execução e resultados foram revisados.
 
 **Prazo informado pelo aluno:** 11/11/2026. Priorizar análise e modelagem antes de refinamentos extras.
+
+## Preparação complementar em branch de revisão (08/11/2026)
+
+- [x] Script de diagnóstico para conferência de médias, desvios, classes e divisão treino/teste criado sem treinar modelos.
+- [x] Critérios para cinco algoritmos e avaliação sem vazamento registrados em `docs/roteiro-modelagem-ia.md`.
+- [ ] **Receber o notebook local do aluno** antes de qualquer tentativa de sincronizar os cinco gráficos no GitHub.
+- [ ] Concluir interpretações, implementar modelos, executar e revisar a versão final.
