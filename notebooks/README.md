@@ -13,7 +13,7 @@ O notebook final deverá:
 - treinar e comparar cinco algoritmos de classificação;
 - apresentar métricas adequadas e limitações.
 
-O rascunho existente contém 19 células. As células de importação e carregamento/checagem inicial foram implementadas, mas não executadas; as análises e modelos ainda possuem TODOs. Não é uma entrega final. Só marcar como executado e validado após executar as células com o CSV real. Nome sugerido acima: conferir eventuais exigências de nomenclatura no portal.
+O rascunho existente contém 19 células. As células de importação e carregamento/checagem inicial foram executadas com o CSV real no Jupyter isolado e possuem saídas registradas; as análises e modelos ainda possuem TODOs. Não é uma entrega final. Só marcar como executado e validado após executar as células com o CSV real. Nome sugerido acima: conferir eventuais exigências de nomenclatura no portal.
 
 ## Execução local
 
@@ -22,4 +22,4 @@ O rascunho existente contém 19 células. As células de importação e carregam
 3. Execute as duas primeiras células de código, confira a validação, e só então avance para a análise exploratória.
 4. Salve as saídas do notebook na versão de entrega.
 
-A validação do arquivo recebido foi executada externamente ao notebook em 08/11/2026; a execução dentro do `.ipynb` segue pendente.
+A validação do arquivo recebido foi executada em 08/11/2026; as duas primeiras células de código do `.ipynb` foram executadas isoladamente e suas saídas foram salvas no repositório. As demais células precisam ser implementadas, executadas e revisadas pelo aluno.
