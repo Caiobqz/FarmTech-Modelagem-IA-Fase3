@@ -1,9 +1,9 @@
 # Notebooks
 
-Esta pasta receberá o notebook Jupyter principal da atividade.
+Esta pasta contém o rascunho estrutural `rascunho_modelagem_ia.ipynb`, ainda sem análises implementadas. A versão final da atividade será desenvolvida e validada pelo aluno.
 
 Nome de arquivo a confirmar com o enunciado:
-`CaioBarrosQueiroz_RM576443_fase3_cap2.ipynb`
+`CaioBarrosQueiroz_RM576443_fase3_cap11.ipynb`
 
 O notebook final deverá:
 - conter células de código executadas e seus resultados;
@@ -13,4 +13,4 @@ O notebook final deverá:
 - treinar e comparar cinco algoritmos de classificação;
 - apresentar métricas adequadas e limitações.
 
-Não foi criado um notebook vazio: ele será montado após a validação do CSV, para evitar análises e resultados fictícios.
+O rascunho existente contém 19 células com seções e TODOs; não é uma entrega final. Só marcar como executado e validado após executar as células com o CSV real. Nome sugerido acima: conferir eventuais exigências de nomenclatura no portal.
