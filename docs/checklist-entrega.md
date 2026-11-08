@@ -2,9 +2,11 @@
 
 ## Antes da análise
 - [x] Capítulo 11 informado pelo aluno em 08/11/2026; confirmar detalhes formais no portal da FIAP antes da submissão.
-- [ ] Adicionar o CSV à pasta `dados/`.
-- [ ] Registrar a fonte, a licença e o contexto da base.
-- [ ] Reexecutar no notebook a validação de colunas, dimensões, tipos, ausências, duplicatas e classes (resultados anteriores relatados: 2.200 linhas, 8 colunas, 22 classes, sem ausentes/duplicatas integrais).
+- [x] Receber e validar localmente o CSV fornecido; manter o arquivo fora do GitHub até confirmar permissão de republicação.
+- [ ] Colocar uma única cópia do CSV na pasta local `dados/` para executar o notebook.
+- [ ] Confirmar procedência exata, autorização de republicação e contexto geográfico; referência compatível no Kaggle, sem identidade do arquivo comprovada.
+- [x] Validar o CSV real fora do notebook: 2.200 linhas, 8 colunas, 22 classes, sem ausentes/duplicatas integrais; verificar tipos e faixas básicas.
+- [ ] Executar no notebook a célula de validação e salvar as saídas.
 
 ## Análise exploratória
 - [ ] Calcular estatísticas descritivas.
@@ -33,8 +35,8 @@
 | Item | Estado | Evidência |
 |---|---|---|
 | Estrutura do repositório | Implementado | Arquivos conferidos na branch `main` |
-| Rascunho do notebook | Parcialmente implementado | 19 células; importação e checagem inicial codificadas, sem execução |
-| Estatísticas anteriores do dataset | Relatado, não validado nesta sessão | Resumo de validação anterior do aluno |
+| Rascunho do notebook | Parcialmente implementado | 19 células; importação e verificação de qualidade codificadas, ainda não executadas no `.ipynb` |
+| Estrutura e consistência do CSV | Validado externamente ao notebook | Arquivo real lido em 08/11/2026; ver `dados/README.md` |
 | CSV no GitHub | Ausente | Pasta `dados/` contém apenas README |
 | EDA, 5 gráficos, 3 culturas | Planejado | Código ainda não implementado |
 | 5 classificadores e métricas | Planejado | Código ainda não implementado |
