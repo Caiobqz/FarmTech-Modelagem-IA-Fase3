@@ -5,16 +5,16 @@
 ## Estado em 08/11/2026
 
 - **Executado localmente pelo aluno (evidência por capturas na conversa):** validação do CSV, estatísticas descritivas, histograma de temperatura, boxplot de pH, scatterplot de temperatura × precipitação, heatmap de correlação e barras de nutrientes por cultura.
-- **A confirmar:** presença das cinco **interpretações em células Markdown** e a versão mais recente do `.ipynb` salvo em disco.
-- **GitHub `main`:** contém rascunho com as duas primeiras células de código executadas. **Não contém ainda os cinco gráficos locais**.
-- **Preparado nesta branch:** tabela comparativa das 3 culturas, script de diagnóstico, divisão estratificada e este roteiro.
+- **Confirmado após upload:** as cinco interpretações estavam ausentes ou incompletas; foram criados campos Markdown marcados como PENDENTE para autoria do aluno.
+- **GitHub `main`:** preservada. **PR #1:** notebook revisado com 30 células, cinco gráficos distintos, tabelas descritivas e separação treino/teste executados e saídas salvas.
+- **Preparado e testado nesta branch:** tabela comparativa das 3 culturas, script de diagnóstico, divisão estratificada e notebook sincronizado até a Seção 7.
 - **Pendente de implementar pelo aluno com orientação:** seções 6 a 10 do notebook, cinco modelos e avaliação.
 
-## Primeiro: sincronizar o notebook do PC sem perder gráficos
+## Notebook recebido e sincronizado na PR #1 — preservar backup no PC
 
 1. No Jupyter, salve o notebook com `Ctrl+S`.
 2. Encontre o arquivo `notebooks/rascunho_modelagem_ia.ipynb` **na pasta local que está usando**.
-3. Anexe esse `.ipynb` à conversa para revisão. **Não substitua pelo arquivo do GitHub**, pois a `main` ainda não contém os cinco gráficos.
+3. O notebook foi recebido e sua versão corrigida foi sincronizada **na PR #1**, não na `main`. Antes de usar a versão revisada, mantenha backup do arquivo antigo no PC.
 4. Compare a execução local antes de atualizar a `main`; nunca use `git reset --hard` neste momento.
 5. Mantenha o CSV apenas em `dados/` local; a proteção no `.gitignore` evita commit acidental.
 
@@ -73,8 +73,10 @@ Depois de executar os cinco algoritmos, escrever: problema estudado, principais 
 
 ## Definição de pronto para envio à FIAP
 
-- [ ] `.ipynb` local atualizado com as cinco visualizações e interpretações.
-- [ ] Tabela e explicação de comparação das 3 culturas.
+- [x] Notebook com cinco visualizações e saídas salvas na PR #1.
+- [ ] Aluno redigir interpretações de cada gráfico em Markdown.
+- [x] Tabela comparativa das três culturas executada.
+- [ ] Aluno redigir explicação da comparação das culturas.
 - [ ] Células de modelagem realmente executadas.
 - [ ] Métricas reais e discussão, sem vazamento de dados.
 - [ ] Notebook reexecutado da primeira à última célula, sem erros, com outputs salvos.
