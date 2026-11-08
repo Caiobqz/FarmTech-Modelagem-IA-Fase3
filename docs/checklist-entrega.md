@@ -33,7 +33,7 @@
 | Item | Estado | Evidência |
 |---|---|---|
 | Estrutura do repositório | Implementado | Arquivos conferidos na branch `main` |
-| Rascunho do notebook | Implementado | 19 células com TODOs; sem resultados executados |
+| Rascunho do notebook | Parcialmente implementado | 19 células; importação e checagem inicial codificadas, sem execução |
 | Estatísticas anteriores do dataset | Relatado, não validado nesta sessão | Resumo de validação anterior do aluno |
 | CSV no GitHub | Ausente | Pasta `dados/` contém apenas README |
 | EDA, 5 gráficos, 3 culturas | Planejado | Código ainda não implementado |
