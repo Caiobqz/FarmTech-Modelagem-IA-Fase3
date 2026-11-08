@@ -15,13 +15,21 @@ FarmTech-Modelagem-IA-Fase3/
 └── .gitignore
 ```
 
+## Identificação da atividade
+
+- **Instituição:** FIAP
+- **Fase:** 3
+- **Capítulo:** 11 — Modelagem de IA
+- **Aluno:** Caio Barros Queiroz — RM 576443
+- **Prazo informado:** 11/11/2026
+
 ## Objetivo
 
 Analisar dados de nutrientes do solo e condições climáticas para estudar a relação entre essas variáveis e a cultura agrícola indicada (`label`). O trabalho contempla análise exploratória, visualizações, comparação de culturas e avaliação de modelos de classificação.
 
 ## Dados
 
-O arquivo CSV exigido pela atividade ainda precisa ser inserido em `dados/`. Antes de qualquer análise, será necessário validar se o arquivo corresponde às colunas esperadas:
+O arquivo CSV da atividade (recebido pelo aluno com o nome `Atividade_Cap11_produtos_agricolas(1).csv`) ainda não está versionado em `dados/`. A origem e a autorização de redistribuição precisam ser verificadas antes de publicá-lo. Antes de qualquer análise, será necessário validar se o arquivo corresponde às colunas esperadas:
 
 - `N`, `P`, `K`
 - `temperature`, `humidity`, `ph`, `rainfall`
@@ -61,7 +69,14 @@ As recomendações obtidas por modelos dependem da origem, qualidade e represent
 
 - [x] Repositório inicial criado
 - [x] Estrutura de diretórios preparada
-- [ ] Dataset validado e adicionado
+- [ ] CSV incluído no repositório (publicação condicionada à origem/licença)
+- [ ] Validação do CSV reproduzida no notebook (resultados anteriores relatados, ainda não reexecutados)
 - [ ] Notebook desenvolvido e executado
 - [ ] Resultados revisados
 - [ ] Entrega acadêmica conferida
+
+## Validação anterior do dataset (registro histórico)
+
+Segundo os resultados da verificação anterior relatados pelo aluno: **2.200 registros**, **8 colunas**, **22 culturas**, **100 registros por cultura**, **0 valores ausentes** e **0 linhas totalmente duplicadas**. Esses resultados ainda não foram reexecutados nesta atualização porque o CSV não está disponível no repositório. Veja [dados/README.md](dados/README.md).
+
+O notebook em `notebooks/rascunho_modelagem_ia.ipynb` contém somente a estrutura (19 células). Análises, treinamento, gráficos e conclusões permanecem **planejados**, não executados ou validados.
