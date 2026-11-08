@@ -13,4 +13,4 @@ O notebook final deverá:
 - treinar e comparar cinco algoritmos de classificação;
 - apresentar métricas adequadas e limitações.
 
-O rascunho existente contém 19 células com seções e TODOs; não é uma entrega final. Só marcar como executado e validado após executar as células com o CSV real. Nome sugerido acima: conferir eventuais exigências de nomenclatura no portal.
+O rascunho existente contém 19 células. As células de importação e carregamento/checagem inicial foram implementadas, mas não executadas; as análises e modelos ainda possuem TODOs. Não é uma entrega final. Só marcar como executado e validado após executar as células com o CSV real. Nome sugerido acima: conferir eventuais exigências de nomenclatura no portal.
