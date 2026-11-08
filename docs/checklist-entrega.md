@@ -9,15 +9,15 @@
 - [x] Executar as duas primeiras células de código em Jupyter isolado e salvar suas saídas no notebook; reexecutar no computador do aluno antes da entrega.
 
 ## Análise exploratória
-- [x] Estatísticas descritivas executadas localmente (captura compartilhada; ainda não sincronizadas no GitHub).
-- [x] Cinco gráficos executados localmente (histograma, boxplot, dispersão, correlação, barras); arquivos do Jupyter ainda precisam ser recebidos para sincronização.
+- [x] Estatísticas descritivas executadas e sincronizadas no notebook da PR #1.
+- [x] Cinco gráficos distintos executados com CSV real e sincronizados na PR #1.
 - [ ] Escrever uma interpretação própria para cada gráfico.
 - [x] Culturas escolhidas: arroz, milho e café. Justificativa de escolha: comparar perfis contrastantes observados no dataset; inserir explicação autoral em Markdown.
-- [ ] Tabela comparativa com médias e desvios calculada em `docs/comparacao-tecnica-tres-culturas.md`; explicação acadêmica do aluno pendente no notebook.
+- [x] Tabela de médias e desvios das três culturas executada e sincronizada; interpretação acadêmica do aluno pendente.
 
 ## Modelagem
-- [ ] Definir X e y.
-- [ ] Criar treino e teste com estratificação.
+- [x] Definir X (sete variáveis) e y (22 culturas) no notebook.
+- [x] Executar treino/teste estratificado: 1.760/440 registros e 80/20 por classe.
 - [ ] Evitar vazamento de dados usando pipelines.
 - [ ] Treinar cinco algoritmos diferentes.
 - [ ] Comparar accuracy, precision, recall e F1-score.
@@ -35,14 +35,14 @@
 | Item | Estado | Evidência |
 |---|---|---|
 | Estrutura do repositório | Implementado | Arquivos conferidos na branch `main` |
-| Rascunho do notebook | Parcialmente executado | 19 células; primeiras duas células de código executadas com o CSV real e saídas salvas; demais cinco células de código sem execução |
+| Notebook na PR #1 | Executado até a preparação ML | 30 células, 5 imagens de gráficos, análise descritiva e split; duas células de modelos/avaliação sem execução |
 | Estrutura e consistência do CSV | Validado externamente ao notebook | Arquivo real lido em 08/11/2026; ver `dados/README.md` |
 | CSV no GitHub | Ausente | Pasta `dados/` contém apenas README |
-| EDA e 5 gráficos | Executado localmente; não sincronizado | Capturas fornecidas pelo aluno; aguarda notebook `.ipynb` atualizado |
+| EDA e 5 gráficos | Sincronizados | Notebook na PR #1, execução com CSV real |
 | Três culturas | Cálculos executados; interpretação pendente | `docs/comparacao-tecnica-tres-culturas.md` |
 | Preparação técnica de ML | Testada isoladamente | Script de diagnóstico e split estratificado 80/20: 1.760/440 |
 | 5 classificadores e métricas | Planejado | Modelos não treinados |
-| Notebook integralmente executado e entrega FIAP | Pendente | Apenas as duas primeiras células de código têm evidências de execução |
+| Notebook integralmente executado e entrega FIAP | Pendente | Cinco modelos, métricas, interpretações e conclusão ainda não concluídos |
 
 **Definições de estado:** Planejado = descrito, sem implementação; Implementado = existe no repositório; Executado = rodou com dados reais e gerou saída; Validado = execução e resultados foram revisados.
 
@@ -52,5 +52,5 @@
 
 - [x] Script de diagnóstico para conferência de médias, desvios, classes e divisão treino/teste criado sem treinar modelos.
 - [x] Critérios para cinco algoritmos e avaliação sem vazamento registrados em `docs/roteiro-modelagem-ia.md`.
-- [ ] **Receber o notebook local do aluno** antes de qualquer tentativa de sincronizar os cinco gráficos no GitHub.
+- [x] Receber notebook local do aluno, auditar, corrigir duplicação, restaurar Gráfico 3 e sincronizar em PR #1, preservando a `main`.
 - [ ] Concluir interpretações, implementar modelos, executar e revisar a versão final.
