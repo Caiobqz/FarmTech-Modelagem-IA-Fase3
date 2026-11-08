@@ -71,7 +71,8 @@ As recomendações obtidas por modelos dependem da origem, qualidade e represent
 - [x] Estrutura de diretórios preparada
 - [x] CSV recebido e auditado localmente; sem publicação até confirmar procedência e licença
 - [x] Validação técnica externa ao notebook executada com o CSV real em 08/11/2026
-- [ ] Validação reproduzida pelo aluno no notebook e saídas salvas
+- [x] Células iniciais executadas com o CSV real em Jupyter isolado; saídas salvas no notebook
+- [ ] Aluno reexecutar o notebook localmente após concluir as análises
 - [ ] Notebook desenvolvido e executado
 - [ ] Resultados revisados
 - [ ] Entrega acadêmica conferida
@@ -80,4 +81,4 @@ As recomendações obtidas por modelos dependem da origem, qualidade e represent
 
 O arquivo recebido foi verificado por leitura real de CSV: **2.200 registros**, **8 colunas**, **22 culturas**, **100 registros por cultura**, **0 valores ausentes** e **0 duplicatas integrais**. A consistência de tipos, a finitude dos valores numéricos e faixas físicas elementares também foram conferidas. Consulte [dados/README.md](dados/README.md) para o SHA-256, alcance da validação e nota de procedência.
 
-O notebook em `notebooks/rascunho_modelagem_ia.ipynb` possui 19 células. A importação e a validação inicial foram **implementadas**, mas **a execução com saídas salvas no notebook permanece pendente**. Estatísticas interpretadas, gráficos, treinamento e conclusão serão desenvolvidos pelo aluno durante a orientação.
+O notebook em `notebooks/rascunho_modelagem_ia.ipynb` possui 19 células. A importação e a validação inicial foram **executadas com o CSV real em um ambiente Jupyter isolado**, e suas saídas foram salvas no notebook. As demais células de código continuam sem execução. Estatísticas interpretadas, gráficos, treinamento e conclusão serão desenvolvidos pelo aluno durante a orientação.
