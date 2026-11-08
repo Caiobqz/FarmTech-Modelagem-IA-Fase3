@@ -79,4 +79,4 @@ As recomendações obtidas por modelos dependem da origem, qualidade e represent
 
 Segundo os resultados da verificação anterior relatados pelo aluno: **2.200 registros**, **8 colunas**, **22 culturas**, **100 registros por cultura**, **0 valores ausentes** e **0 linhas totalmente duplicadas**. Esses resultados ainda não foram reexecutados nesta atualização porque o CSV não está disponível no repositório. Veja [dados/README.md](dados/README.md).
 
-O notebook em `notebooks/rascunho_modelagem_ia.ipynb` contém somente a estrutura (19 células). Análises, treinamento, gráficos e conclusões permanecem **planejados**, não executados ou validados.
+O notebook em `notebooks/rascunho_modelagem_ia.ipynb` contém 19 células. **Importação e carregamento/checagem inicial foram implementados**, mas ainda não executados com o CSV. Estatísticas, gráficos, treinamento e conclusões seguem **planejados**, não executados nem validados.
