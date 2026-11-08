@@ -29,7 +29,7 @@ Analisar dados de nutrientes do solo e condições climáticas para estudar a re
 
 ## Dados
 
-O arquivo CSV da atividade (recebido pelo aluno com o nome `Atividade_Cap11_produtos_agricolas(1).csv`) ainda não está versionado em `dados/`. A origem e a autorização de redistribuição precisam ser verificadas antes de publicá-lo. Antes de qualquer análise, será necessário validar se o arquivo corresponde às colunas esperadas:
+O CSV da atividade, recebido como `Atividade_Cap11_produtos_agricolas(2).csv`, foi verificado localmente em 08/11/2026, mas **não está versionado** em `dados/`. A origem primária/condições de redistribuição precisam ser confirmadas antes de publicá-lo. A estrutura validada corresponde às colunas:
 
 - `N`, `P`, `K`
 - `temperature`, `humidity`, `ph`, `rainfall`
@@ -69,14 +69,15 @@ As recomendações obtidas por modelos dependem da origem, qualidade e represent
 
 - [x] Repositório inicial criado
 - [x] Estrutura de diretórios preparada
-- [ ] CSV incluído no repositório (publicação condicionada à origem/licença)
-- [ ] Validação do CSV reproduzida no notebook (resultados anteriores relatados, ainda não reexecutados)
+- [x] CSV recebido e auditado localmente; sem publicação até confirmar procedência e licença
+- [x] Validação técnica externa ao notebook executada com o CSV real em 08/11/2026
+- [ ] Validação reproduzida pelo aluno no notebook e saídas salvas
 - [ ] Notebook desenvolvido e executado
 - [ ] Resultados revisados
 - [ ] Entrega acadêmica conferida
 
-## Validação anterior do dataset (registro histórico)
+## Validação do dataset em 08/11/2026
 
-Segundo os resultados da verificação anterior relatados pelo aluno: **2.200 registros**, **8 colunas**, **22 culturas**, **100 registros por cultura**, **0 valores ausentes** e **0 linhas totalmente duplicadas**. Esses resultados ainda não foram reexecutados nesta atualização porque o CSV não está disponível no repositório. Veja [dados/README.md](dados/README.md).
+O arquivo recebido foi verificado por leitura real de CSV: **2.200 registros**, **8 colunas**, **22 culturas**, **100 registros por cultura**, **0 valores ausentes** e **0 duplicatas integrais**. A consistência de tipos, a finitude dos valores numéricos e faixas físicas elementares também foram conferidas. Consulte [dados/README.md](dados/README.md) para o SHA-256, alcance da validação e nota de procedência.
 
-O notebook em `notebooks/rascunho_modelagem_ia.ipynb` contém 19 células. **Importação e carregamento/checagem inicial foram implementados**, mas ainda não executados com o CSV. Estatísticas, gráficos, treinamento e conclusões seguem **planejados**, não executados nem validados.
+O notebook em `notebooks/rascunho_modelagem_ia.ipynb` possui 19 células. A importação e a validação inicial foram **implementadas**, mas **a execução com saídas salvas no notebook permanece pendente**. Estatísticas interpretadas, gráficos, treinamento e conclusão serão desenvolvidos pelo aluno durante a orientação.
