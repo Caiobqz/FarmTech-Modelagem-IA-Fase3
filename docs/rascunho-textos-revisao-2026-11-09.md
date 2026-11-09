@@ -1,5 +1,14 @@
 # FarmTech — Textos acadêmicos para revisão do grupo
 
+**Integrantes do grupo (RMs informados):**
+- Caio Barros Queiroz — RM 576443
+- Paulo Vitor — RM 575580
+- Kauê Araujo — RM 576394
+- Juliana — RM 579614
+- Cleidimar — RM 576009
+
+> Conferir os nomes completos e a grafia de Paulo Vitor, Juliana e Cleidimar com os registros da FIAP.
+
 **Status:** RASCUNHO, não enviar à FIAP sem revisão. Base: notebook integrado executado e CSV fornecido como material de aula (SHA-256 `54a5a6e5408668e668667efc50de2fc867c1b875e0431b4f54dd331b0a109a4e`).
 
 ## O que foi preservado
