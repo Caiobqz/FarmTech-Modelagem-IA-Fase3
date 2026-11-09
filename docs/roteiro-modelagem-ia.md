@@ -83,3 +83,7 @@ Depois de executar os cinco algoritmos, escrever: problema estudado, principais 
 - [x] Notebook reexecutado da primeira à última célula de código, sem erros, com outputs salvos.
 - [ ] Reexecutar novamente a versão definitiva após as alterações finais de Markdown.
 - [ ] Identificação, RM, capítulo, nome do arquivo e entrega no portal FIAP conferidos.
+
+## Atualização em 09/11/2026 (substitui as pendências históricas de 08/11)
+
+O notebook foi integrado e reexecutado por completo, com cinco modelos, comparação das culturas, interpretações e conclusão redigidas. Foram removidas as marcações provisórias repetidas, preservadas as atribuições e os registros de apoio de IA. Permanecem **pendentes de aprovação humana** os nomes completos, a revisão crítica dos textos e o envio à FIAP. Consulte [CONFERENCIA_FINAL_2026-11-09.md](CONFERENCIA_FINAL_2026-11-09.md). A PR #1 permanece em rascunho sem merge.
