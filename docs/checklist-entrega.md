@@ -28,10 +28,12 @@
 - [ ] Grupo validar a discussão das métricas e limitações, com base nas saídas.
 
 ## Entrega
-- [ ] Executar todas as células do notebook na ordem.
-- [ ] Remover erros e saídas desatualizadas.
-- [ ] Conferir explicações em Markdown.
-- [ ] Confirmar nome do arquivo, RM, fase e capítulo.
+- [x] Executar todas as células do notebook na ordem no ambiente de validação isolado em 09/11 (15/15). Reexecutar no PC se o grupo editar o conteúdo.
+- [x] Ausência de exceções verificada em 09/11; saídas salvas no arquivo reexecutado.
+- [x] Revisão técnica das explicações em Markdown concluída e marcadores de rascunho removidos.
+- [ ] Aprovação crítica da redação e da conclusão pelo grupo.
+- [x] Cinco integrantes e RMs incluídos; fase e capítulo identificados.
+- [ ] Nomes completos de Paulo Vitor, Juliana e Cleidimar e nomenclatura oficial do arquivo confirmados com a FIAP.
 - [ ] Conferir o arquivo final no portal antes de enviar.
 
 ## Situação verificada em 08/11/2026
@@ -62,3 +64,12 @@
 - [ ] Revisar criticamente, adaptar e aprovar redação final pelo grupo.
 - [x] Proposta de conclusão registrada para revisão.
 - [ ] Aprovar conclusão e referências; conferir integrantes/RMs e formato final da submissão.
+
+## Estado posterior — 09/11/2026: versão candidata à entrega
+
+- [x] Correções de apresentação, rascunhos removidos do notebook principal, preservada a declaração de apoio de IA nas atribuições.
+- [x] Notebook reexecutado integralmente com o CSV real; 38 células, 15 de código, 8 saídas gráficas, **zero erros**.
+- [x] Modelo selecionado no treino: Random Forest; teste: 438/440, acurácia 99,55% e F1 macro 0,9955.
+- [x] Checklist completo para conferência do grupo: `docs/CONFERENCIA_FINAL_2026-11-09.md`.
+- [ ] Grupo aprovar os textos, conferir nomes completos, regras da FIAP e enviar o `.ipynb` pelo portal.
+- [ ] Confirmar recibo de submissão. PR #1 continua em rascunho, sem merge.
