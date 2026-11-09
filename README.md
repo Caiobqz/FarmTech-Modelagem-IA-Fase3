@@ -20,6 +20,7 @@ FarmTech-Modelagem-IA-Fase3/
 - **Instituição:** FIAP
 - **Fase:** 3
 - **Capítulo:** 11 — Modelagem de IA
+- **Prazo informado:** 11/11/2026
 - **Integrantes do grupo:**
   - Caio Barros Queiroz — RM 576443
   - Paulo Vitor — RM 575580
@@ -28,7 +29,6 @@ FarmTech-Modelagem-IA-Fase3/
   - Cleidimar — RM 576009
 
 > **Conferência acadêmica:** confirmar os nomes completos e a grafia de Paulo Vitor, Juliana e Cleidimar com os registros da FIAP antes da entrega.
-- **Prazo informado:** 11/11/2026
 
 ## Objetivo
 
