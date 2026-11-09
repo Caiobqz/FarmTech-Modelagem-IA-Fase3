@@ -9,7 +9,11 @@ FarmTech-Modelagem-IA-Fase3/
 ├── dados/
 │   └── README.md
 ├── notebooks/
-│   └── README.md
+│   ├── README.md
+│   └── rascunho_modelagem_ia.ipynb
+├── scripts/
+│   └── diagnostico_pre_modelagem.py
+├── docs/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -28,7 +32,7 @@ FarmTech-Modelagem-IA-Fase3/
   - Juliana — RM 579614
   - Cleidimar — RM 576009
 
-> **Conferência acadêmica:** confirmar os nomes completos e a grafia de Paulo Vitor, Juliana e Cleidimar com os registros da FIAP antes da entrega.
+> **Registro acadêmico:** os nomes e RMs foram informados pelo aluno; os nomes completos de Paulo Vitor, Juliana e Cleidimar não foram verificados diretamente na base da FIAP.
 
 ## Objetivo
 
@@ -48,7 +52,7 @@ Consulte [dados/README.md](dados/README.md) para instruções de origem e organi
 
 ## Notebook
 
-O notebook principal ficará em `notebooks/`. Ele deverá conter:
+O notebook principal está em `notebooks/rascunho_modelagem_ia.ipynb` e contém:
 1. Carregamento e validação dos dados;
 2. Análise exploratória e descritiva;
 3. Pelo menos cinco visualizações com interpretação;
@@ -56,7 +60,7 @@ O notebook principal ficará em `notebooks/`. Ele deverá conter:
 5. Treinamento e avaliação de cinco algoritmos de classificação;
 6. Discussão dos resultados, pontos fortes e limitações.
 
-O notebook final deverá ser entregue com as células executadas e explicações em Markdown.
+O notebook possui células de código executadas e explicações em Markdown. O aluno confirmou a entrega acadêmica em 09/11/2026.
 
 ## Ambiente
 
@@ -79,21 +83,21 @@ As recomendações obtidas por modelos dependem da origem, qualidade e represent
 - [x] CSV recebido e auditado localmente; sem publicação até confirmar procedência e licença
 - [x] Validação técnica externa ao notebook executada com o CSV real em 08/11/2026
 - [x] Notebook com estatísticas, cinco gráficos, comparação de culturas e divisão treino/teste executados na PR #1
-- [ ] Grupo conferir o notebook na própria máquina e reexecutar após eventuais edições finais
+- [x] Notebook executado integralmente e saídas preservadas na versão final (validação isolada)
 - [x] Notebook integrado: 38 células, 15 de código executadas sem erros, com cinco classificadores e métricas
 - [x] Resultados técnicos conferidos em ambiente isolado em 09/11/2026 (Random Forest: 438/440, F1 macro 0,9955)
-- [ ] Revisão e aprovação dos textos acadêmicos pelos integrantes
-- [ ] Entrega acadêmica conferida no portal FIAP e recibo de envio confirmado
+- [x] Textos acadêmicos revisados tecnicamente; a aprovação individual de cada integrante não foi auditada
+- [x] Envio à FIAP informado como concluído pelo aluno em 09/11/2026 (comprovante não acessado)
 
 ## Validação do dataset em 08/11/2026
 
 O arquivo recebido foi verificado por leitura real de CSV: **2.200 registros**, **8 colunas**, **22 culturas**, **100 registros por cultura**, **0 valores ausentes** e **0 duplicatas integrais**. A consistência de tipos, a finitude dos valores numéricos e faixas físicas elementares também foram conferidas. Consulte [dados/README.md](dados/README.md) para o SHA-256, alcance da validação e nota de procedência.
 
-O notebook integrado na PR #1 contém **38 células (15 de código)**, todas as células de código executadas com o CSV real, oito visualizações com saídas salvas, cinco classificadores e métricas. O modelo selecionado pela validação cruzada no treino foi Random Forest; no teste obteve 438/440 acertos (acurácia de 99,55%, F1 macro 0,9955). **As interpretações e a conclusão foram redigidas e revisadas tecnicamente; a aprovação pelo grupo, a confirmação dos nomes e a conferência de submissão continuam pendentes.** A `main` e o CSV público não foram alterados.
+O notebook integrado na PR #1 contém **38 células (15 de código)**, todas as células de código executadas com o CSV real, oito visualizações com saídas salvas, cinco classificadores e métricas. O modelo selecionado pela validação cruzada no treino foi Random Forest; no teste obteve 438/440 acertos (acurácia de 99,55%, F1 macro 0,9955). **As interpretações e a conclusão foram redigidas e revisadas tecnicamente.** A PR #1 foi integrada à `main`; o CSV público não foi alterado nem publicado. A aprovação individual do grupo não foi verificada.
 
-## Versão candidata à entrega — 09/11/2026
+## Versão de entrega — 09/11/2026
 
-O notebook da branch da PR #1 foi reexecutado integralmente com o CSV fornecido, sem erros, e suas saídas foram salvas. A cópia preparada para conferência chama-se `FarmTech_Fase3_Modelagem_IA_PARA_CONFERENCIA.ipynb`. O checklist com os itens que ainda dependem do grupo está em [docs/CONFERENCIA_FINAL_2026-11-09.md](docs/CONFERENCIA_FINAL_2026-11-09.md). A branch `main` permanece inalterada e o arquivo CSV não foi publicado.
+O notebook integrado foi reexecutado integralmente com o CSV fornecido, sem erros e com as saídas salvas. O arquivo `notebooks/rascunho_modelagem_ia.ipynb` foi incorporado à `main` pela PR #1. O checklist histórico de conferência está em [docs/CONFERENCIA_FINAL_2026-11-09.md](docs/CONFERENCIA_FINAL_2026-11-09.md). O CSV não foi publicado no GitHub.
 
 ## Encerramento
 
