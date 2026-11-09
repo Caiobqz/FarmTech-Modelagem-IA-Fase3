@@ -11,9 +11,11 @@
 ## Análise exploratória
 - [x] Estatísticas descritivas executadas e sincronizadas no notebook da PR #1.
 - [x] Cinco gráficos distintos executados com CSV real e sincronizados na PR #1.
-- [ ] Interpretação do Gráfico 1 (temperatura) redigida no notebook com apoio de IA para revisão acadêmica do grupo (09/11/2026). Permanecem pendentes as interpretações dos Gráficos 2–5.
+- [x] Rascunhos das interpretações dos Gráficos 1–5 inseridos no notebook, com apoio de IA.
+- [ ] **Grupo deve revisar e aprovar** interpretações, números e redação de todos os cinco gráficos antes da entrega.
 - [x] Culturas escolhidas: arroz, milho e café. Justificativa de escolha: comparar perfis contrastantes observados no dataset; inserir explicação autoral em Markdown.
-- [x] Tabela de médias e desvios das três culturas executada e sincronizada; interpretação acadêmica do aluno pendente.
+- [x] Tabela comparativa de médias e desvios e rascunho de interpretação de arroz, milho e café disponíveis na PR #1.
+- [ ] Grupo revisar e aprovar comparação de solo e clima.
 
 ## Modelagem
 - [x] Definir X (sete variáveis) e y (22 culturas) no notebook.
@@ -22,7 +24,8 @@
 - [x] Cinco algoritmos integrados e treinados com 1.760 exemplos (teste: 440).
 - [x] Comparação executada com acurácia, precisão macro, recall macro, F1 macro e CV estratificada no treino.
 - [x] Matriz de confusão e relatório detalhado gerados para o modelo selecionado pela CV.
-- [ ] Aluno interpretar a matriz, explicar os dois erros do Random Forest e discutir limitações do dataset.
+- [x] Rascunho de interpretação de matriz de confusão e dos dois erros do Random Forest inserido.
+- [ ] Grupo validar a discussão das métricas e limitações, com base nas saídas.
 
 ## Entrega
 - [ ] Executar todas as células do notebook na ordem.
@@ -55,5 +58,7 @@
 - [x] Critérios para cinco algoritmos e avaliação sem vazamento registrados em `docs/roteiro-modelagem-ia.md`.
 - [x] Receber notebook local do aluno, auditar, corrigir duplicação, restaurar Gráfico 3 e sincronizar em PR #1, preservando a `main`.
 - [x] Integrar cinco modelos, executar e validar todas as 15 células de código no CSV original.
-- [ ] Redigir e revisar interpretações dos 5 gráficos, da comparação das 3 culturas e das métricas.
-- [ ] Finalizar conclusão e referências; conferir integrantes/RMs e formato final da submissão.
+- [x] Rascunhos de cinco interpretações, comparação, métricas, importância das variáveis e conclusão adicionados à PR #1.
+- [ ] Revisar criticamente, adaptar e aprovar redação final pelo grupo.
+- [x] Proposta de conclusão registrada para revisão.
+- [ ] Aprovar conclusão e referências; conferir integrantes/RMs e formato final da submissão.
