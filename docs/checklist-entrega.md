@@ -18,10 +18,11 @@
 ## Modelagem
 - [x] Definir X (sete variáveis) e y (22 culturas) no notebook.
 - [x] Executar treino/teste estratificado: 1.760/440 registros e 80/20 por classe.
-- [ ] Evitar vazamento de dados usando pipelines.
-- [ ] Treinar cinco algoritmos diferentes.
-- [ ] Comparar accuracy, precision, recall e F1-score.
-- [ ] Analisar matriz de confusão e limitações.
+- [x] Escalonamento dentro de pipelines e validação cruzada somente no treino, verificado no notebook integrado.
+- [x] Cinco algoritmos integrados e treinados com 1.760 exemplos (teste: 440).
+- [x] Comparação executada com acurácia, precisão macro, recall macro, F1 macro e CV estratificada no treino.
+- [x] Matriz de confusão e relatório detalhado gerados para o modelo selecionado pela CV.
+- [ ] Aluno interpretar a matriz, explicar os dois erros do Random Forest e discutir limitações do dataset.
 
 ## Entrega
 - [ ] Executar todas as células do notebook na ordem.
@@ -35,14 +36,14 @@
 | Item | Estado | Evidência |
 |---|---|---|
 | Estrutura do repositório | Implementado | Arquivos conferidos na branch `main` |
-| Notebook na PR #1 | Executado até a preparação ML | 30 células, 5 imagens de gráficos, análise descritiva e split; duas células de modelos/avaliação sem execução |
+| Notebook na PR #1 | Tecnicamente executado, interpretação pendente | 38 células, 15 células de código executadas, 8 imagens de gráficos; sem erros |
 | Estrutura e consistência do CSV | Validado externamente ao notebook | Arquivo real lido em 08/11/2026; ver `dados/README.md` |
 | CSV no GitHub | Ausente | Pasta `dados/` contém apenas README |
 | EDA e 5 gráficos | Sincronizados | Notebook na PR #1, execução com CSV real |
 | Três culturas | Cálculos executados; interpretação pendente | `docs/comparacao-tecnica-tres-culturas.md` |
 | Preparação técnica de ML | Testada isoladamente | Script de diagnóstico e split estratificado 80/20: 1.760/440 |
-| 5 classificadores e métricas | Planejado | Modelos não treinados |
-| Notebook integralmente executado e entrega FIAP | Pendente | Cinco modelos, métricas, interpretações e conclusão ainda não concluídos |
+| 5 classificadores e métricas | Executados e verificados | CV escolheu Random Forest; teste: 438/440 acertos, F1 macro 0,9955 |
+| Notebook integralmente executado e entrega FIAP | Execução técnica concluída; entrega pendente | Interpretar 5 gráficos, comparar culturas, revisar conclusão, autoria e regras do portal |
 
 **Definições de estado:** Planejado = descrito, sem implementação; Implementado = existe no repositório; Executado = rodou com dados reais e gerou saída; Validado = execução e resultados foram revisados.
 
@@ -53,4 +54,6 @@
 - [x] Script de diagnóstico para conferência de médias, desvios, classes e divisão treino/teste criado sem treinar modelos.
 - [x] Critérios para cinco algoritmos e avaliação sem vazamento registrados em `docs/roteiro-modelagem-ia.md`.
 - [x] Receber notebook local do aluno, auditar, corrigir duplicação, restaurar Gráfico 3 e sincronizar em PR #1, preservando a `main`.
-- [ ] Concluir interpretações, implementar modelos, executar e revisar a versão final.
+- [x] Integrar cinco modelos, executar e validar todas as 15 células de código no CSV original.
+- [ ] Redigir e revisar interpretações dos 5 gráficos, da comparação das 3 culturas e das métricas.
+- [ ] Finalizar conclusão e referências; conferir integrantes/RMs e formato final da submissão.
