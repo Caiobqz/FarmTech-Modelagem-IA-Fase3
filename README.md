@@ -29,10 +29,10 @@ FarmTech-Modelagem-IA-Fase3/
   - Caio Barros Queiroz — RM 576443
   - Paulo Vitor — RM 575580
   - Kauê Araujo — RM 576394
-  - Juliana — RM 579614
+  - Julliana Silva Furtado — RM 579614
   - Cleidimar — RM 576009
 
-> **Registro acadêmico:** os nomes e RMs foram informados pelo aluno; os nomes completos de Paulo Vitor, Juliana e Cleidimar não foram verificados diretamente na base da FIAP.
+> **Registro acadêmico:** os nomes e RMs foram informados pelo aluno; os nomes completos de Paulo Vitor e Cleidimar não foram verificados diretamente na base da FIAP.
 
 ## Objetivo
 
