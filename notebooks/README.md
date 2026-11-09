@@ -1,8 +1,8 @@
 # Notebooks
 
-Esta pasta contém o notebook final integrado à `main` via PR #1 em 09/11/2026: análise exploratória, gráficos, comparação de culturas, divisão treino/teste, cinco modelos e avaliação executados. **Textos preparados e revisados tecnicamente; aprovação acadêmica do grupo e submissão pendentes**.
+Esta pasta contém o notebook final integrado à `main` via PR #1 em 09/11/2026: análise exploratória, gráficos, comparação de culturas, divisão treino/teste, cinco modelos e avaliação executados. **Textos e código revisados tecnicamente; entrega acadêmica informada como concluída pelo aluno em 09/11/2026.**
 
-Cópia executada para conferência e download: `FarmTech_Fase3_Modelagem_IA_PARA_CONFERENCIA.ipynb`. O nome definitivo e eventual exigência de identificação devem ser confirmados no portal FIAP.
+Versão principal: `rascunho_modelagem_ia.ipynb` (nome técnico mantido para preservar o histórico GitHub). A cópia de distribuição da atividade pode usar `FarmTech_Fase3_Modelagem_IA_ENTREGA.ipynb`.
 
 O notebook final deverá:
 - conter células de código executadas e seus resultados;
@@ -12,7 +12,7 @@ O notebook final deverá:
 - treinar e comparar cinco algoritmos de classificação;
 - apresentar métricas adequadas e limitações.
 
-O notebook integrado possui **38 células**, das quais 15 são de código; todas foram executadas com o CSV real sem erros. Há cinco gráficos exploratórios, comparação das três culturas, cinco algoritmos e avaliação por métricas e matriz de confusão. **As interpretações e a conclusão estão redigidas e sem marcadores editoriais de rascunho. A aprovação dos integrantes continua pendente.** Conferir nomenclatura e integrantes no portal antes de enviar.
+O notebook integrado possui **38 células**, das quais 15 são de código; todas foram executadas com o CSV real sem erros. Há cinco gráficos exploratórios, comparação das três culturas, cinco algoritmos e avaliação por métricas e matriz de confusão. **As interpretações e a conclusão estão redigidas e sem marcadores editoriais de rascunho.** O notebook foi executado e conferido tecnicamente; a aprovação individual de todos os integrantes não foi auditada.
 
 ## Execução local
 
