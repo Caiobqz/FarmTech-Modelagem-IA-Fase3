@@ -1,6 +1,6 @@
 # Notebooks
 
-Esta pasta contém o notebook revisado na PR #1. Exploração, gráficos, comparação das culturas e split foram executados; interpretação autoral e modelos continuam pendentes.
+Esta pasta contém o notebook integrado na PR #1: análise exploratória, gráficos, comparação de culturas, divisão treino/teste, cinco modelos e avaliação executados. **Interpretações autorais e conclusão acadêmica ainda pendentes**.
 
 Nome de arquivo a confirmar com o enunciado:
 `CaioBarrosQueiroz_RM576443_fase3_cap11.ipynb`
@@ -13,7 +13,7 @@ O notebook final deverá:
 - treinar e comparar cinco algoritmos de classificação;
 - apresentar métricas adequadas e limitações.
 
-O notebook revisado possui **30 células**. A execução com CSV real foi concluída até a seção de preparação de Machine Learning, incluindo cinco gráficos distintos com saídas salvas. Duas células de modelos/avaliação não foram executadas. As cinco interpretações em Markdown estão marcadas como PENDENTE para a redação do aluno. Nome final sugerido acima: conferir exigências do portal.
+O notebook integrado possui **38 células**, das quais 15 são de código; todas foram executadas com o CSV real sem erros. Há cinco gráficos exploratórios, comparação das três culturas, cinco algoritmos e avaliação por métricas e matriz de confusão. **As interpretações e a conclusão continuam marcadas PENDENTE**, para a redação e revisão da equipe. Conferir nomenclatura e integrantes no portal antes de enviar.
 
 ## Execução local
 
@@ -22,4 +22,4 @@ O notebook revisado possui **30 células**. A execução com CSV real foi conclu
 3. Depois de completar interpretações e modelos, reexecute todas as células em ordem para a entrega.
 4. Salve as saídas do notebook na versão de entrega.
 
-A execução parcial até a preparação de Machine Learning foi concluída e registrada na PR #1. Modelos, métricas e conclusão continuam pendentes.
+A execução técnica integral foi concluída na PR #1 e suas saídas foram salvas. A entrega **não está pronta**: faltam redação interpretativa, conclusão revisada, referências, identificação do grupo e conferência do portal.
