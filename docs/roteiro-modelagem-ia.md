@@ -77,7 +77,9 @@ Depois de executar os cinco algoritmos, escrever: problema estudado, principais 
 - [ ] Aluno redigir interpretações de cada gráfico em Markdown.
 - [x] Tabela comparativa das três culturas executada.
 - [ ] Aluno redigir explicação da comparação das culturas.
-- [ ] Células de modelagem realmente executadas.
-- [ ] Métricas reais e discussão, sem vazamento de dados.
-- [ ] Notebook reexecutado da primeira à última célula, sem erros, com outputs salvos.
+- [x] Células de modelagem realmente executadas e verificadas.
+- [x] Métricas reais e pipelines contra vazamento gerados.
+- [ ] Aluno revisar/discutir os resultados de avaliação.
+- [x] Notebook reexecutado da primeira à última célula de código, sem erros, com outputs salvos.
+- [ ] Reexecutar novamente a versão definitiva após as alterações finais de Markdown.
 - [ ] Identificação, RM, capítulo, nome do arquivo e entrega no portal FIAP conferidos.
