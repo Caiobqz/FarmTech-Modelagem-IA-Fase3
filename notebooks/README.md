@@ -1,6 +1,6 @@
 # Notebooks
 
-Esta pasta contém o notebook integrado na PR #1: análise exploratória, gráficos, comparação de culturas, divisão treino/teste, cinco modelos e avaliação executados. **Textos preparados e revisados tecnicamente; aprovação acadêmica do grupo e submissão pendentes**.
+Esta pasta contém o notebook final integrado à `main` via PR #1 em 09/11/2026: análise exploratória, gráficos, comparação de culturas, divisão treino/teste, cinco modelos e avaliação executados. **Textos preparados e revisados tecnicamente; aprovação acadêmica do grupo e submissão pendentes**.
 
 Cópia executada para conferência e download: `FarmTech_Fase3_Modelagem_IA_PARA_CONFERENCIA.ipynb`. O nome definitivo e eventual exigência de identificação devem ser confirmados no portal FIAP.
 
@@ -21,4 +21,4 @@ O notebook integrado possui **38 células**, das quais 15 são de código; todas
 3. Confira os dados do grupo, a redação e as referências; após qualquer edição local, reexecute todas as células em ordem.
 4. Salve as saídas do notebook na versão de entrega.
 
-A execução técnica integral foi concluída na PR #1 e suas saídas foram salvas. A entrega **ainda exige ação humana**: confirmar os nomes completos, aprovar a redação, verificar o enunciado, conferir a versão final no PC e confirmar o upload no portal. Consulte `docs/CONFERENCIA_FINAL_2026-11-09.md`.
+A execução técnica integral foi concluída na PR #1 e suas saídas foram salvas. O aluno confirmou a entrega do notebook à FIAP em 09/11/2026. O desempenho acadêmico final depende da avaliação do professor; preservar o comprovante de submissão. Consulte `docs/CONFERENCIA_FINAL_2026-11-09.md` como registro histórico das recomendações de revisão.
