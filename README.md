@@ -104,3 +104,13 @@ O notebook integrado foi reexecutado integralmente com o CSV fornecido, sem erro
 - A PR #1 foi integrada à `main` em 09/11/2026.
 - O aluno confirmou que entregou a atividade à FIAP em 09/11/2026.
 - O notebook do GitHub possui 38 células e 15 células de código com resultados executados; repositório sem CSV por restrição de redistribuição.
+
+## Atualização do Capítulo 11 — 09/11/2026 (correção de entrega)
+
+O enunciado oficial exige nome e RM no nome do arquivo, perfil de solo e clima para três culturas, cinco gráficos e cinco algoritmos. A versão atualizada para consulta pública está em:
+
+- [notebooks/CaioBarrosQueiroz_RM576443_fase3_cap11.ipynb](notebooks/CaioBarrosQueiroz_RM576443_fase3_cap11.ipynb) — **41 células, 16 de código executadas, sem erros salvos**, com uma seção de perfil empírico (mediana e quartis) para arroz, milho e café.
+
+**Diferença importante:** esta é a versão pública, que carrega o CSV original de forma local (`dados/`, pasta do notebook ou diretório pai). O arquivo individual preparado para **submissão privada à FIAP** tem uma cópia compactada dos dados anexada ao próprio notebook, para permitir a reexecução sem arquivos adicionais. **Essa cópia privada não foi publicada no GitHub**, pois não foi confirmada a autorização de redistribuição pública do CSV.
+
+Em 09/11/2026, a versão individual foi executada isoladamente em uma pasta vazia, com 16/16 células de código sem erros. A substituição efetiva do arquivo no portal depende de confirmação do aluno.
