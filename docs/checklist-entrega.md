@@ -11,7 +11,7 @@
 ## Análise exploratória
 - [x] Estatísticas descritivas executadas e sincronizadas no notebook da PR #1.
 - [x] Cinco gráficos distintos executados com CSV real e sincronizados na PR #1.
-- [ ] Escrever uma interpretação própria para cada gráfico.
+- [ ] Interpretação do Gráfico 1 (temperatura) redigida no notebook com apoio de IA para revisão acadêmica do grupo (09/11/2026). Permanecem pendentes as interpretações dos Gráficos 2–5.
 - [x] Culturas escolhidas: arroz, milho e café. Justificativa de escolha: comparar perfis contrastantes observados no dataset; inserir explicação autoral em Markdown.
 - [x] Tabela de médias e desvios das três culturas executada e sincronizada; interpretação acadêmica do aluno pendente.
 
