@@ -94,3 +94,9 @@ O notebook integrado na PR #1 contém **38 células (15 de código)**, todas as 
 ## Versão candidata à entrega — 09/11/2026
 
 O notebook da branch da PR #1 foi reexecutado integralmente com o CSV fornecido, sem erros, e suas saídas foram salvas. A cópia preparada para conferência chama-se `FarmTech_Fase3_Modelagem_IA_PARA_CONFERENCIA.ipynb`. O checklist com os itens que ainda dependem do grupo está em [docs/CONFERENCIA_FINAL_2026-11-09.md](docs/CONFERENCIA_FINAL_2026-11-09.md). A branch `main` permanece inalterada e o arquivo CSV não foi publicado.
+
+## Encerramento
+
+- A PR #1 foi integrada à `main` em 09/11/2026.
+- O aluno confirmou que entregou a atividade à FIAP em 09/11/2026.
+- O notebook do GitHub possui 38 células e 15 células de código com resultados executados; repositório sem CSV por restrição de redistribuição.
