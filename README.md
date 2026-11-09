@@ -20,8 +20,15 @@ FarmTech-Modelagem-IA-Fase3/
 - **Instituição:** FIAP
 - **Fase:** 3
 - **Capítulo:** 11 — Modelagem de IA
-- **Aluno:** Caio Barros Queiroz — RM 576443
 - **Prazo informado:** 11/11/2026
+- **Integrantes do grupo:**
+  - Caio Barros Queiroz — RM 576443
+  - Paulo Vitor — RM 575580
+  - Kauê Araujo — RM 576394
+  - Juliana — RM 579614
+  - Cleidimar — RM 576009
+
+> **Conferência acadêmica:** confirmar os nomes completos e a grafia de Paulo Vitor, Juliana e Cleidimar com os registros da FIAP antes da entrega.
 
 ## Objetivo
 
@@ -71,14 +78,19 @@ As recomendações obtidas por modelos dependem da origem, qualidade e represent
 - [x] Estrutura de diretórios preparada
 - [x] CSV recebido e auditado localmente; sem publicação até confirmar procedência e licença
 - [x] Validação técnica externa ao notebook executada com o CSV real em 08/11/2026
-- [x] Células iniciais executadas com o CSV real em Jupyter isolado; saídas salvas no notebook
-- [ ] Aluno reexecutar o notebook localmente após concluir as análises
-- [ ] Notebook desenvolvido e executado
-- [ ] Resultados revisados
-- [ ] Entrega acadêmica conferida
+- [x] Notebook com estatísticas, cinco gráficos, comparação de culturas e divisão treino/teste executados na PR #1
+- [ ] Grupo conferir o notebook na própria máquina e reexecutar após eventuais edições finais
+- [x] Notebook integrado: 38 células, 15 de código executadas sem erros, com cinco classificadores e métricas
+- [x] Resultados técnicos conferidos em ambiente isolado em 09/11/2026 (Random Forest: 438/440, F1 macro 0,9955)
+- [ ] Revisão e aprovação dos textos acadêmicos pelos integrantes
+- [ ] Entrega acadêmica conferida no portal FIAP e recibo de envio confirmado
 
 ## Validação do dataset em 08/11/2026
 
 O arquivo recebido foi verificado por leitura real de CSV: **2.200 registros**, **8 colunas**, **22 culturas**, **100 registros por cultura**, **0 valores ausentes** e **0 duplicatas integrais**. A consistência de tipos, a finitude dos valores numéricos e faixas físicas elementares também foram conferidas. Consulte [dados/README.md](dados/README.md) para o SHA-256, alcance da validação e nota de procedência.
 
-O notebook em `notebooks/rascunho_modelagem_ia.ipynb` possui 19 células. A importação e a validação inicial foram **executadas com o CSV real em um ambiente Jupyter isolado**, e suas saídas foram salvas no notebook. As demais células de código continuam sem execução. Estatísticas interpretadas, gráficos, treinamento e conclusão serão desenvolvidos pelo aluno durante a orientação.
+O notebook integrado na PR #1 contém **38 células (15 de código)**, todas as células de código executadas com o CSV real, oito visualizações com saídas salvas, cinco classificadores e métricas. O modelo selecionado pela validação cruzada no treino foi Random Forest; no teste obteve 438/440 acertos (acurácia de 99,55%, F1 macro 0,9955). **As interpretações e a conclusão foram redigidas e revisadas tecnicamente; a aprovação pelo grupo, a confirmação dos nomes e a conferência de submissão continuam pendentes.** A `main` e o CSV público não foram alterados.
+
+## Versão candidata à entrega — 09/11/2026
+
+O notebook da branch da PR #1 foi reexecutado integralmente com o CSV fornecido, sem erros, e suas saídas foram salvas. A cópia preparada para conferência chama-se `FarmTech_Fase3_Modelagem_IA_PARA_CONFERENCIA.ipynb`. O checklist com os itens que ainda dependem do grupo está em [docs/CONFERENCIA_FINAL_2026-11-09.md](docs/CONFERENCIA_FINAL_2026-11-09.md). A branch `main` permanece inalterada e o arquivo CSV não foi publicado.
